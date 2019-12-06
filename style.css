@@ -1,0 +1,47 @@
+.card{
+  background-color: whitesmoke;
+}
+
+p{
+  line-height: 1.6;
+  font-family: calibri;
+  text-align: left;
+  margin: 0;
+  font-size: 14pt;
+}
+
+.fig_sum {
+  float: left;
+  max-width: 50%;
+  height: auto;
+  shape-outside: image("assets/images/Fig1.png");
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.fig_viz {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fig_comp {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.img-thumbnail {
+  border-width: 2.5px;
+  border-color: lightsteelblue;
+}
