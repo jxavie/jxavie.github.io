@@ -1,11 +1,25 @@
+
+.body_setting {
+  background-color: whitesmoke;
+}
+
 .card {
   background-color: aliceblue;
+}
+
+.card-title {
+  color: rgb(92, 92, 92);
+}
+
+.card-body {
+  color: rgb(92, 92, 92);
+  font-size: 15pt;
 }
 
 .p {
   line-height: 1.6;
   font-family: calibri;
-  color: rgb(78, 78, 78);
+  color: rgb(92, 92, 92);
   text-align: left;
   margin: 0;
   font-size: 15pt;
@@ -53,6 +67,10 @@
   /* margin-top: 0; */
 }
 
+.bg_custom {
+  background-color: #343a40;
+}
+
 .navbar-brand {
   background-color: palegoldenrod;
   color: steelblue;
@@ -63,10 +81,6 @@
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 10px;
-}
-
-.bg_custom {
-    background-color: #343a40;
 }
 
 .nav-link {
@@ -83,19 +97,6 @@
 
 .footer {
   color: lightsteelblue;
-}
-
-.card-title {
-  color: rgb(78, 78, 78);
-}
-
-.card-body {
-  color: rgb(78, 78, 78);
-  font-size: 15pt;
-}
-
-.body_setting {
-  background-color: whitesmoke;
 }
 
 @media (max-width: 768px) {
