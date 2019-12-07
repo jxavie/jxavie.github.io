@@ -1,13 +1,14 @@
-.card{
-  background-color: whitesmoke;
+.card {
+  background-color: aliceblue;
 }
 
-p{
+.p {
   line-height: 1.6;
   font-family: calibri;
+  color: rgb(78, 78, 78);
   text-align: left;
   margin: 0;
-  font-size: 14pt;
+  font-size: 15pt;
 }
 
 .fig_sum {
@@ -44,4 +45,51 @@ p{
 .img-thumbnail {
   border-width: 2.5px;
   border-color: lightsteelblue;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  /* margin-top: 0; */
+}
+
+.navbar-brand {
+  background-color: palegoldenrod;
+  color: steelblue;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: lightsteelblue;
+}
+
+.dropdown-menu {
+  background-color: lightslategray;
+}
+
+.dropdown-item {
+  color: palegoldenrod;
+}
+
+.footer {
+  color: lightsteelblue;
+}
+
+.card-title {
+  color: rgb(78, 78, 78);
+}
+
+.card-body {
+  color: rgb(78, 78, 78);
+  font-size: 15pt;
+}
+
+.body_setting {
+  background-color: whitesmoke;
 }
